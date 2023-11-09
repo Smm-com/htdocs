@@ -13,12 +13,12 @@ function creerUnCookie(nomCookie, valeurCookie, dureeJours){
      // Si le nombre de jours est spécifié
      if(dureeJours){ 
         var date = new Date(); 
+        
         // Converti le nombre de jours spécifiés en millisecondes
-
         date.setTime(date.getTime() + (dureeJours * 24 * 60 * 60 * 1000 )); 
         var expire = "; expire="+date.toGMTString(); 
      } 
-     // Si aucune n'est spécifiée 
+     // Si aucune valeur n'est spécifiée 
     else
      var expire = ""; 
 
@@ -27,7 +27,7 @@ function creerUnCookie(nomCookie, valeurCookie, dureeJours){
 
      function lireUnCookie(nomCookie){ 
     
-     // tableau contenant tous les cookies 
+     // Tableau contenant tous les cookies 
        nomFormate = nomCookie + "=";
       
     // Recherche du cookie dans le tableau

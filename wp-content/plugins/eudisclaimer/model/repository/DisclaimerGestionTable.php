@@ -12,7 +12,7 @@ class DisclaimerGestionTable {
         $message = new DisclaimerOptions(); 
         // $message = new DisclaimerOptions(0, "Au regard de la loi européenne, 
         // vous devez nous confirmer que vous avez plus
-        // de 18 ans pour visiter ce site ?", "https://www.qwant.com/");
+        // de 18 ans pour visiter ce site", "https://www.qwant.com/");
         
         // On alimente l'objet du message
         $message->setMessageDisclaimer(
@@ -95,10 +95,10 @@ class DisclaimerGestionTable {
 
         $lien_redirection = $row->redirection_ko; 
 
-        // echo '<div id="monModal" class="modal">
-        return '<div id="monModal" class="modal">
+        // echo '<div id="monModal" class="modal" style="background-color: rgba(157, 62, 12, 0.75);">
+        return '<div id="monModal" class="modal" style="background-color: rgba(157, 62, 12, 0.75);">
 
-                <p>Bienvenue au Vapobar ! </p>
+                <p>Bienvenue au Vapobar !</p>
 
                 <p>'. $message_disclaimer . '</p>
                 
