@@ -1,0 +1,28 @@
+a.btn-red { 
+
+    color:#fff; 
+    background: #770101; 
+    padding: .5rem 1rem; 
+    display: inline-block; 
+    border-radius: 4px; 
+    transition-duration: .25s; 
+    border: none; 
+    font-size: 22px; 
+    font-weight: bold; 
+
+   } 
+
+   
+   a.btn-green { 
+
+    color:#fff; 
+    background: #426b00; 
+    padding: .5rem 1rem; 
+    display: inline-block; 
+    border-radius: 4px; 
+    transition-duration: .25s; 
+    border: none; 
+    font-size: 22px; 
+    font-weight: bold; 
+
+   } 
